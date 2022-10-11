@@ -1,5 +1,5 @@
 <script>
-	import Mike from '$lib/assets/md.png';
+	import Mike from '../images/md.png';
 </script>
 
 <div class="container">
@@ -14,6 +14,6 @@
 		align-items: center;
 		justify-content: center;
 		height: 100vh;
-		background: url('$lib/assets/background.jpg') 50% 50% / cover no-repeat;
+		background: url('../images/background.jpg') 50% 50% / cover no-repeat;
 	}
 </style>
