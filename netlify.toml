@@ -3,4 +3,4 @@
 
   [plugins.inputs]
   cloudName = 'mykeld74'
-  imagesPath = './src/lib/images'
+  imagesPath = 'src/lib/images'
