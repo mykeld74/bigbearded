@@ -14,5 +14,6 @@
 		align-items: center;
 		justify-content: center;
 		height: 100vh;
+		background: url('$lib/assets/background.jpg') 50% 50% / cover no-repeat;
 	}
 </style>
