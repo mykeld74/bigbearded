@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Mike from '$lib/assets/md.png';
+</script>
+
+<div class="container">
+	<img src={Mike} alt="Mike" />
+	<p>This is to test the image optimization via netlify and cloudinary.</p>
+</div>
+
+<style>
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+	}
+</style>
